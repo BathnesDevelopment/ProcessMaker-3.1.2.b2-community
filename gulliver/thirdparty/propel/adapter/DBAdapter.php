@@ -54,11 +54,12 @@ abstract class DBAdapter {
 								    'mysql' => 'DBMySQL',
 									'mysqli' => 'DBMySQLi',
 								    'mssql' => 'DBMSSQL',
+									'sqlsrv' => 'DBSQLSRV',
 								    'sybase' => 'DBSybase',
 								    'oracle' => 'DBOracle',
 								    'pgsql' => 'DBPostgres',
 								    'sqlite' => 'DBSQLite',
-                    'dbarray' => 'DBArray',
+									'dbarray' => 'DBArray',
 								    '' => 'DBNone',
 								);
 

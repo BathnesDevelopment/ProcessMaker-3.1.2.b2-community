@@ -500,7 +500,7 @@ class Propel {
 			include_once 'creole/Creole.php';
 			// if specified, use custom driver
 			if (isset(self::$configuration['datasources'][$name]['driver'])) {
-				Creole::registerDriver($dsn['phptype'], self::$configuration['datasources'][$name]['driver']);
+				Creole::registerDriver(self::$configuration['datasources'][$name]['phptype'], self::$configuration['datasources'][$name]['driver']);
 			}
 
 			try {
