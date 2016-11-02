@@ -1,0 +1,72 @@
+<?php
+$this->type='popupMenu';
+$this->theme='processmaker';
+$this->id='bXRpYzJKbnBtYUtmNUpMVTJwbU4wNVBabU1LQTI2RG9wSDNWNHFhYjdhS2w___';
+$this->width=600;
+$this->title='';
+$this->fields = unserialize( 'a:2:{s:14:"PAGED_TABLE_ID";O:13:"XmlForm_Field":34:{s:4:"name";s:14:"PAGED_TABLE_ID";s:4:"type";s:7:"private";s:5:"label";N;s:7:"pmLabel";N;s:5:"owner";N;s:8:"language";s:2:"en";s:5:"group";i:0;s:4:"mode";s:4:"edit";s:12:"defaultValue";N;s:13:"gridFieldType";s:0:"";s:9:"gridLabel";s:0:"";s:4:"hint";s:0:"";s:10:"enableHtml";b:0;s:5:"style";s:0:"";s:12:"withoutLabel";b:0;s:9:"className";s:0:"";s:8:"colWidth";i:140;s:8:"colAlign";s:4:"left";s:12:"colClassName";s:0:"";s:10:"titleAlign";s:0:"";s:5:"align";s:0:"";s:11:"showInTable";s:0:"";s:7:"onclick";s:0:"";s:16:"dataCompareField";s:0:"";s:15:"dataCompareType";s:1:"=";s:3:"sql";s:0:"";s:13:"sqlConnection";s:0:"";s:7:"pmtable";s:0:"";s:4:"keys";s:0:"";s:12:"pmconnection";s:0:"";s:7:"pmfield";s:0:"";s:8:"modeGrid";s:0:"";s:11:"modeForGrid";s:4:"edit";s:7:"options";a:0:{}}s:2:"js";O:24:"XmlForm_Field_JavaScript":35:{s:4:"code";s:526:"
+
+function loadPopupMenu_@#PAGED_TABLE_ID(){
+popupMenu_@#PAGED_TABLE_ID(document.getElementById(\'table[@#PAGED_TABLE_ID]\').rows[0]);
+for(var k=0,l=oPopupMenu_@#PAGED_TABLE_ID.options.menu.length;k<l;k++){
+  var img=\'\';
+  img=\'/images/unchecked.gif\';
+  for(var i=0,j=@#PAGED_TABLE_ID.shownFields.length;i<j;i++){
+    if (@#PAGED_TABLE_ID.shownFields[i]===oPopupMenu_@#PAGED_TABLE_ID.options.menu[k].name)
+    {
+      img=\'/images/checked.gif\';break;
+    }
+    
+  }
+  oPopupMenu_@#PAGED_TABLE_ID.options.menu[k].image=img;
+};
+}
+";s:11:"replaceTags";b:1;s:4:"name";s:2:"js";s:4:"type";s:10:"javascript";s:5:"label";s:0:"";s:7:"pmLabel";s:0:"";s:5:"owner";N;s:8:"language";s:2:"en";s:5:"group";i:0;s:4:"mode";s:0:"";s:12:"defaultValue";N;s:13:"gridFieldType";s:0:"";s:9:"gridLabel";s:0:"";s:4:"hint";s:0:"";s:10:"enableHtml";b:0;s:5:"style";s:0:"";s:12:"withoutLabel";b:0;s:9:"className";s:0:"";s:8:"colWidth";i:140;s:8:"colAlign";s:4:"left";s:12:"colClassName";s:0:"";s:10:"titleAlign";s:0:"";s:5:"align";s:0:"";s:11:"showInTable";s:0:"";s:7:"onclick";s:0:"";s:16:"dataCompareField";s:0:"";s:15:"dataCompareType";s:1:"=";s:3:"sql";s:0:"";s:13:"sqlConnection";s:0:"";s:7:"pmtable";s:0:"";s:4:"keys";s:0:"";s:12:"pmconnection";s:0:"";s:7:"pmfield";s:0:"";s:8:"modeGrid";s:0:"";s:11:"modeForGrid";s:0:"";}}' );
+$this->values = unserialize( 'a:0:{}' );
+$this->action='';
+$this->ajaxServer='';
+$this->enableTemplate=false;
+$this->ajaxSubmit=false;
+$this->callback='function(){}';
+$this->in_progress='function(){}';
+$this->template=null;
+$this->className='formDefault';
+$this->objectRequiredFields='[]';
+$this->nextstepsave='';
+$this->printdynaform='';
+$this->adjustgridswidth='0';
+$this->visual_frontend=null;
+$this->tree = unserialize( 'O:8:"Xml_Node":5:{s:4:"name";s:8:"dynaForm";s:4:"type";s:4:"open";s:5:"value";s:1:"
+";s:10:"attributes";a:3:{s:4:"name";s:0:"";s:4:"type";s:9:"popupMenu";s:5:"theme";s:12:"processmaker";}s:8:"children";a:4:{i:0;O:8:"Xml_Node":5:{s:4:"name";s:14:"PAGED_TABLE_ID";s:4:"type";s:8:"complete";s:5:"value";s:0:"";s:10:"attributes";a:1:{s:4:"type";s:7:"private";}s:8:"children";a:0:{}}i:1;O:8:"Xml_Node":5:{s:4:"name";s:0:"";s:4:"type";s:5:"cdata";s:5:"value";s:1:"
+";s:10:"attributes";a:0:{}s:8:"children";a:0:{}}i:2;O:8:"Xml_Node":5:{s:4:"name";s:2:"js";s:4:"type";s:8:"complete";s:5:"value";s:526:"
+
+function loadPopupMenu_@#PAGED_TABLE_ID(){
+popupMenu_@#PAGED_TABLE_ID(document.getElementById(\'table[@#PAGED_TABLE_ID]\').rows[0]);
+for(var k=0,l=oPopupMenu_@#PAGED_TABLE_ID.options.menu.length;k<l;k++){
+  var img=\'\';
+  img=\'/images/unchecked.gif\';
+  for(var i=0,j=@#PAGED_TABLE_ID.shownFields.length;i<j;i++){
+    if (@#PAGED_TABLE_ID.shownFields[i]===oPopupMenu_@#PAGED_TABLE_ID.options.menu[k].name)
+    {
+      img=\'/images/checked.gif\';break;
+    }
+    
+  }
+  oPopupMenu_@#PAGED_TABLE_ID.options.menu[k].image=img;
+};
+}
+";s:10:"attributes";a:1:{s:4:"type";s:10:"javascript";}s:8:"children";a:0:{}}i:3;O:8:"Xml_Node":5:{s:4:"name";s:0:"";s:4:"type";s:5:"cdata";s:5:"value";s:1:"
+";s:10:"attributes";a:0:{}s:8:"children";a:0:{}}}}' );
+$this->name='';
+$this->language='en';
+$this->version='0.3';
+$this->sql=null;
+$this->sqlConnection=null;
+$this->height='100%';
+$this->border=1;
+$this->mode='';
+$this->labelWidth='40%';
+$this->onsubmit='';
+$this->requiredFields = unserialize( 'a:0:{}' );
+$this->fieldContentWidth=450;
+?>
