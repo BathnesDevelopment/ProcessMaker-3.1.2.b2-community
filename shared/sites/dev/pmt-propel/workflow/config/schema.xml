@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="workflow">
+  <table name="PMT_PMT_AB_TEST">
+    <vendor type="mysql">
+      <parameter name="Collation" value="utf8_general_ci"/>
+    </vendor>
+    <column name="APP_UID" type="VARCHAR" size="32" required="true" primaryKey="true" index="true"/>
+    <column name="APP_NUMBER" type="INTEGER" size="11" required="true"/>
+    <column name="APP_STATUS" type="VARCHAR" size="10" required="true"/>
+    <column name="RADIOMANAGERAPPROVED" type="VARCHAR" size="255" required="false"/>
+    <column name="CHECKBOXALLROLES" type="INTEGER" size="1" required="false"/>
+    <column name="TEXTAREAMANAGERCOMMENTS" type="VARCHAR" size="255" required="false"/>
+    <column name="TXTMANAGERUID01" type="VARCHAR" size="255" required="false"/>
+    <column name="TXTPOSREF01" type="VARCHAR" size="255" required="false"/>
+    <column name="TXTROLES" type="VARCHAR" size="255" required="false"/>
+    <index name="indexTable">
+      <index-column name="APP_UID"/>
+    </index>
+  </table>
+</database>

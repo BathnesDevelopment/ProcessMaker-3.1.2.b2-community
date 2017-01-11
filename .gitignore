@@ -4,3 +4,7 @@ db.php
 databases.php
 *.log
 shared/compiled/
+shared/sites/dev/files/
+shared/sites/employee/
+shared/sites/training/
+shared/sites/employee.zip

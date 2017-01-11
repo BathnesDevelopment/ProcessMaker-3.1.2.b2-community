@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<div align="center" id="publisherContent[1]" style="margin: 0px;"><form name="frmDerivation" id="frmDerivation" action="cases_Derivate" method="POST" class="formDefault" style="margin: 0px;"><input type="hidden" name="form[ROU_TYPE]" id="form[ROU_TYPE]" value="{$PROCESS.ROU_TYPE}" />
+<div class="borderForm" style="width: 500px; padding-left: 0; padding-right: 0; border-width: 1px;">
+<div class="boxTop">
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+</div>
+<div class="content" style="height: 100%;">
+<table style="width: 99%;">
+<tbody>
+<tr>
+<td valign="top">{if $PROCESS.ERROR eq '' &amp;&amp; $PROCESS.ROU_TYPE neq 'SELECT' &amp;&amp; $PROCESS.ROU_FINISH_FLAG }{else}{/if}{foreach key=id item=data from=$TASK}{if $PROCESS.ROU_TYPE eq 'SELECT'}{/if} {if $PROCESS.ERROR eq '' } {if ($data.NEXT_TASK.TAS_TYPE == "INTERMEDIATE-CATCH-MESSAGE-EVENT")}{elseif ($data.NEXT_TASK.TAS_TYPE == "INTERMEDIATE-CATCH-TIMER-EVENT")}{else}{/if} {/if} {if not $data.NEXT_TASK.ROU_FINISH_FLAG } {if $data.NEXT_TASK.TAS_NEXT eq 'STATIC_MI' || $data.NEXT_TASK.TAS_NEXT eq 'CANCEL_MI'} {foreach key=id item=dataUser from=$data.NEXT_TASK.USER_ASSIGNED} {if $dataUser.USR_HIDDEN_FIELD neq ''}{/if} {/foreach} {/if} {if $data.NEXT_TASK.TAS_NEXT eq ''} {if $data.NEXT_TASK.USR_UID neq ''} {if ($data.NEXT_TASK.TAS_TYPE == "INTERMEDIATE-CATCH-MESSAGE-EVENT")}{elseif ($data.NEXT_TASK.TAS_TYPE == "SCRIPT-TASK")}{elseif ($data.NEXT_TASK.TAS_TYPE == "INTERMEDIATE-CATCH-TIMER-EVENT")}{else}{/if} {/if} {/if} {if $data.NEXT_TASK.TAS_TRANSFER_FLY eq 'true'}{if $data.NEXT_TASK.TAS_CALENDAR neq ''}{/if}{/if} {else}{/if}{if $PROCESS.ROU_TYPE eq 'SELECT'}{/if} {/foreach} {if $PROCESS.ERROR eq '' &amp;&amp; $PROCESS.ROU_TYPE neq 'SELECT' &amp;&amp; ! $PROCESS.ROU_FINISH_FLAG }{/if} {if $PROCESS.ERROR eq '' &amp;&amp; $PROCESS.ROU_TYPE neq 'SELECT' &amp;&amp; $PROCESS.ROU_FINISH_FLAG }{/if}
+<table cellspacing="0" cellpadding="0" border="0" style="background-color: #ffffff; width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%; padding-right: 5px; padding: 3px; color: #000000; font: 10px/150% sans-serif,MiscFixed; border: 2pt solid    
+				#FFFFFF; background-color: #c3dadf;">&nbsp;
+<h2>This task has been completed succesfully!!</h2>
+</td>
+</tr>
+<tr>
+<td style="width: 100%; padding-right: 5px; padding: 3px; color: #000000; font: 10px/150% sans-serif,MiscFixed; border: 2pt solid 
+				#FFFFFF; background-color: #ffffff;">&nbsp;
+<h3><font color="#FF0000">Please click continue to confirm.</font></h3>
+</td>
+</tr>
+<tr>
+<td colspan="2" class="withoutLabel">{if $PREVIOUS_PAGE}{/if}
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="top" class="tableOption" width="33%">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td align="left" class="tableOption" width="120"><img src="../../../images/bulletButtonLeft.gif" width="6" />&nbsp; <a class="tableOption" href="{$PREVIOUS_PAGE}" id="form[DYN_BACKWARD]" name="form[DYN_BACKWARD]" onclick="">{$PREVIOUS_PAGE_LABEL}</a></td>
+<td class="tableOption">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" class="tableOption">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="" class="FormTitle" colspan="2">{$END_OF_PROCESS}</td>
+<td align="" class="FormTitle" colspan="2">{$ASSIGN_TASK}</td>
+</tr>
+<tr height="5">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="FormLabel" width="100">{$OPTION_LABEL} {$id}:</td>
+<td class="FormFieldContent">{$data.ROU_CONDITION }</td>
+<td class="FormFieldContent" colspan="2" style="text-align: center;">{$data.NEXT_TASK.TAS_TITLE}{$data.NEXT_TASK.TAS_HIDDEN_FIELD}</td>
+<td class="FormFieldContent" colspan="2">{$data.NEXT_TASK.TAS_HIDDEN_FIELD}</td>
+<td class="FormLabel" width="100">{$NEXT_TASK_LABEL}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.TAS_TITLE}{$data.NEXT_TASK.TAS_HIDDEN_FIELD}</td>
+<td class="FormLabel" width="100">{$EMPLOYEE}:</td>
+<td class="FormFieldContent">{$dataUser.USR_UID}{$dataUser.USR_HIDDEN_FIELD}</td>
+<td class="FormFieldContent" colspan="2" style="text-align: center;">{$data.NEXT_TASK.USR_HIDDEN_FIELD}</td>
+<td class="FormLabel" width="100"></td>
+<td class="FormFieldContent">{$data.NEXT_TASK.USR_UID}{$data.NEXT_TASK.USR_HIDDEN_FIELD}</td>
+<td class="FormLabel" width="100">{$NEXT_TASK_LABEL}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.USR_UID}{$data.NEXT_TASK.USR_HIDDEN_FIELD}</td>
+<td class="FormLabel" width="100">{$EMPLOYEE}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.USR_UID}{$data.NEXT_TASK.USR_HIDDEN_FIELD}</td>
+<td align="" class="FormSubTitle" colspan="2">{$TAS_TIMING_TITLE} For {$data.NEXT_TASK.TAS_TITLE} Task</td>
+<td class="FormLabel" width="100">{$TAS_DURATION}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.TAS_DURATION}</td>
+<td class="FormLabel" width="100">{$TAS_TIMEUNIT}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.TAS_TIMEUNIT}</td>
+<td class="FormLabel" width="100">{$TAS_TYPE_DAY}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.TAS_TYPE_DAY}</td>
+<td class="FormLabel" width="100">{$TAS_CALENDAR}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.TAS_CALENDAR}</td>
+<td colspan="2">{$data.NEXT_TASK.TAS_TRANSFER_HIDDEN_FLY}</td>
+<td class="FormLabel" width="100">{$LAST_EMPLOYEE}:</td>
+<td class="FormFieldContent">{$data.NEXT_TASK.USR_UID}{$data.NEXT_TASK.USR_HIDDEN_FIELD}</td>
+<td colspan="2">{$data.NEXT_TASK.TAS_ASSIGN_TYPE}{$data.NEXT_TASK.TAS_DEF_PROC_CODE}{$data.NEXT_TASK.DEL_PRIORITY}{$data.NEXT_TASK.TAS_PARENT}{$data.NEXT_TASK.ROU_PREVIOUS_TASK}{$data.NEXT_TASK.ROU_PREVIOUS_TYPE}{$data.NEXT_TASK.ROU_CONDITION}{$data.NEXT_TASK.SOURCE_UID}</td>
+<td align="center" colspan="2">{if $data.NEXT_TASK.TAS_ASSIGN_TYPE neq '' &amp;&amp; not $data.NEXT_TASK.ROU_FINISH_FLAG } <input type="button" class="module_app_button___gray" name="btnContinue_{$id}" id="btnContinue" value="{$CONTINUE_WITH_OPTION} {$id} " onclick="return clickButton(this);" /> {/if} {if $data.NEXT_TASK.TAS_ASSIGN_TYPE neq '' &amp;&amp; $data.NEXT_TASK.ROU_FINISH_FLAG } <input type="button" class="module_app_button___gray" name="btnContinue_{$id}" id="btnContinue" value="{$FINISH_WITH_OPTION} {$id} " onclick="return clickButton(this);" /> {$data.NEXT_TASK.TAS_ASSIGN_TYPE} {/if}</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><input type="button" class="module_app_button___gray" name="btnContinue_{$id}" id="btnContinue" value="{$CONTINUE}" process="" disabled="disabled" onclick="return clickButton(this);" /></td>
+</tr>
+<tr>
+<td align="center" colspan="2"><input type="button" class="module_app_button___gray" name="btnContinue_{$id}" id="btnContinue" value="{$FINISH}" onclick="return clickButton(this);" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="boxBottom">
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+</div>
+</div>
+{if $PROCESS.ROU_TYPE neq 'SELECT'}</form>{/if}</div>
+<script type="text/javascript">// <![CDATA[
+  // deviration type
+  var rouType = '{$PROCESS.ROU_TYPE}';
+  var userHidden = '{$data.NEXT_TASK.USR_HIDDEN_FIELD}';
+  {literal}
+
+  // option select
+  var optionSelect = "";
+
+  /**
+   * @name clickButton
+   * @description verify the option select in button
+   * @access public
+   * @param obj [object: button, submit]
+   * @return boolean
+   * @author Brayan Pereyra - Cochalo <brayan@colosa.com>
+   */
+  var clickButton  = function(obj) {
+    disabledButton();
+
+    var nameButton = obj.name;
+    var pos        = nameButton.lastIndexOf("_");
+    optionSelect   = nameButton.substr(pos+1);
+    if (validateSubmitForm()) {
+      obj.form.submit();
+    }
+    return true;
+  };
+
+  /**
+   * @name disabledButton
+   * @description disable all button type submit
+   * @access public
+   * @return boolean
+   * @author Brayan Pereyra - Cochalo <brayan@colosa.com>
+   */
+  var disabledButton = function() {
+    var submitsForm  = document.getElementsByTagName("input");
+
+    for (var i = 0 ; i <= submitsForm.length ; i++) {
+      if (typeof(submitsForm[i]) != 'undefined' && submitsForm[i].type == 'button') {
+        submitsForm[i].disabled = true;
+      }
+    }
+
+    return true;
+  };
+
+  /**
+   * @name disabledButton
+   * @description enable all button type submit
+   * @access public
+   * @return boolean
+   * @author Brayan Pereyra - Cochalo <brayan@colosa.com>
+   */
+  var enabledButton = function() {
+    var submitsForm = document.getElementsByTagName("input");
+
+    for (var i = 0 ; i <= submitsForm.length ; i++) {
+      if (typeof(submitsForm[i]) != 'undefined' && submitsForm[i].type == 'button') {
+        submitsForm[i].disabled = false;
+      }
+    }
+
+    return true;
+  };
+
+  /**
+   * @name validateSubmitForm
+   * @description validate value select
+   * @access public
+   * @return boolean
+   * @author Brayan Pereyra - Cochalo <brayan@colosa.com>
+   */
+  var validateSubmitForm = function() {
+    disabledButton();
+    var flagSelect = false;
+
+    // verify type of derivation
+    if (rouType == 'PARALLEL' || rouType == 'PARALLEL-BY-EVALUATION') {
+      // verify all value select
+      var selectsForm = document.getElementsByTagName("select");
+      for (var i = 0 ; i <= selectsForm.length ; i++) {
+        if (typeof(selectsForm[i]) != 'undefined') {
+          var vtext = new input(selectsForm[i]);
+          if (selectsForm[i].value == '') {
+            flagSelect = true;
+            vtext.failed();
+          } else {
+            vtext.passed();
+          }
+        }
+      }
+
+      if (flagSelect) {
+        enabledButton();
+        alert(G_STRINGS.ID_ASSIGN_CASE_TO_USER);
+        return false;
+      }
+    } else {
+      var selectId = "form[TASKS]["+optionSelect+"][USR_UID]";
+
+      if (typeof(document.getElementById(selectId)) != 'undefined' && document.getElementById(selectId) != null && (rouType == 'SELECT' || userHidden == '')) {
+        var vtext  = new input(document.getElementById(selectId));
+
+        // verify value select the option select
+        if (document.getElementById(selectId).value == '' &&
+            document.getElementById("form[TASKS]["+optionSelect+"][TAS_ASSIGN_TYPE]").value != 'SELF_SERVICE' &&
+            document.getElementById("form[TASKS]["+optionSelect+"][TAS_ASSIGN_TYPE]").value != 'SELF_SERVICE_EVALUATE'
+           ) {
+          enabledButton();
+          vtext.failed();
+          alert(G_STRINGS.ID_ASSIGN_CASE_TO_USER);
+          return false;
+        } else {
+          vtext.passed();
+        }
+      }
+    }
+
+
+    {/literal}
+    setNestedProperty(this, Array('disabled'), 'true');
+    setNestedProperty(this, Array('value'), '{$PROCESSING_MESSAGE|escape:javascript}');
+    {literal}
+
+    return true;
+  };
+
+  {/literal}
+// ]]></script>
+</body>
+</html>
