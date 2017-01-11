@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-11-02 09:12:55
+<?php /* Smarty version 2.6.18, created on 2017-01-10 17:58:17
          compiled from C:/opt/processmaker/gulliver/templates/menu.html */ ?>
 <ul id="pm_menu">
 	<?php $_from = $this->_tpl_vars['menus']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):

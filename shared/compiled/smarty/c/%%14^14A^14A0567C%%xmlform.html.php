@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-10-27 12:52:31
+<?php /* Smarty version 2.6.18, created on 2017-01-10 17:58:49
          compiled from C:/opt/processmaker/workflow/engine/templates/xmlform.html */ ?>
 <?php if ($this->_tpl_vars['printTemplate']): ?>
   <form id="<?php echo $this->_tpl_vars['form']->id; ?>

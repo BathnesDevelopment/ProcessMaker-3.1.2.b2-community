@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-11-02 09:11:33
+<?php /* Smarty version 2.6.18, created on 2017-01-11 09:02:01
          compiled from mem:defaultTemplatelogin */ ?>
 <div class="panel-default">
     <p><?php echo G::LoadTranslation('ID_LOGIN_TITLE'); ?></p>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2016-11-02 09:12:55
+<?php /* Smarty version 2.6.18, created on 2017-01-11 09:02:01
          compiled from layout.html */ ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
