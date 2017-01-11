@@ -3,4 +3,4 @@
 db.php
 databases.php
 *.log
-
+shared/compiled/

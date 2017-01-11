@@ -49,10 +49,17 @@ class G
     */
     public static function is_https()
     {
+		$headers = apache_request_headers();
+
+		if (isset($headers['HTTP_X_FORWARDED_PROTO'])) {
+			if ($headers['HTTP_X_FORWARDED_PROTO'] == 'https') {
+				return true;
+			}
+		}
         if (isset($_SERVER['HTTPS'])) {
             if ($_SERVER['HTTPS']=='on') {
                 return true;
-            } else {
+			} else {
                 return false;
             }
         } else {
