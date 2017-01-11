@@ -8,3 +8,5 @@ shared/sites/dev/files/
 shared/sites/employee/
 shared/sites/training/
 shared/sites/employee.zip
+shared/backups/
+shared/cron
