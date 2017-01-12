@@ -808,7 +808,7 @@ textarea.x-form-inner-invalid {
 .x-grid3-hd-row td,
 .x-grid3-row td,
 .x-grid3-summary-row td {
-  font: normal 11px "Open Sans", Tahoma, sans-serif, MiscFixed;
+  font: normal 10pt "Open Sans", Tahoma, sans-serif, MiscFixed;
 }
 .x-grid3-hd-row td {
   border-left-color: #eee;
@@ -1100,7 +1100,7 @@ td.x-grid3-hd-menu-open .x-grid3-hd-inner {
 }
 .x-tree-node {
   color: #000;
-  font: normal 11px "Open Sans", Tahoma, sans-serif, MiscFixed;
+  font: normal 10pt "Open Sans", Tahoma, sans-serif, MiscFixed;
 }
 .x-tree-node a,
 .x-dd-drag-ghost a {
