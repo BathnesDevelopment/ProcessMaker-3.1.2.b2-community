@@ -3,37 +3,37 @@
  */
 @font-face {
   font-family: 'Open Sans';
-  src: url('/skins/neoclassic/fonts/OpenSans-Light-webfont.woff') format('woff'), url('/skins/neoclassic/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('/skins/neoclassic/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+  src: url('/skins/banes/fonts/OpenSans-Light-webfont.woff') format('woff'), url('/skins/banes/fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('/skins/banes/fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/skins/neoclassic/fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('/skins/neoclassic/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'), url('/skins/neoclassic/fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+  src: url('/skins/banes/fonts/OpenSans-LightItalic-webfont.woff') format('woff'), url('/skins/banes/fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'), url('/skins/banes/fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/skins/neoclassic/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('/skins/neoclassic/fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('/skins/neoclassic/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+  src: url('/skins/banes/fonts/OpenSans-Regular-webfont.woff') format('woff'), url('/skins/banes/fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('/skins/banes/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/skins/neoclassic/fonts/OpenSans-Italic-webfont.woff') format('woff'), url('/skins/neoclassic/fonts/OpenSans-Italic-webfont.ttf') format('truetype'), url('/skins/neoclassic/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+  src: url('/skins/banes/fonts/OpenSans-Italic-webfont.woff') format('woff'), url('/skins/banes/fonts/OpenSans-Italic-webfont.ttf') format('truetype'), url('/skins/banes/fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/skins/neoclassic/fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('/skins/neoclassic/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('/skins/neoclassic/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+  src: url('/skins/banes/fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('/skins/banes/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('/skins/banes/fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans';
-  src: url('/skins/neoclassic/fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('/skins/neoclassic/fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'), url('/skins/neoclassic/fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+  src: url('/skins/banes/fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'), url('/skins/banes/fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'), url('/skins/banes/fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
   font-weight: bold;
   font-style: italic;
 }
@@ -205,7 +205,7 @@ img {
   text-align: center;
 }
 .Footer .image {
-  /*background-image: url(/skins/neoclassic/images/classic/bf.jpg);
+  /*background-image: url(/skins/banes/images/classic/bf.jpg);
 	background-repeat: repeat-x;
 	height:10px;*/
 
@@ -233,7 +233,7 @@ img {
   -moz-border-radius: 6px;
   /* Rounded edges in Firefox */
 
-  background-image: url(/skins/neoclassic/images/classic/error.gif);
+  background-image: url(/skins/banes/images/classic/error.gif);
   color: #ffffff;
   border-style: solid;
   border-width: 1px;
@@ -274,7 +274,7 @@ img {
   -moz-border-radius: 6px;
   /* Rounded edges in Firefox */
 
-  background-image: url(/skins/neoclassic/images/classic/warning.png);
+  background-image: url(/skins/banes/images/classic/warning.png);
   color: #555555;
   border-style: solid;
   border-width: 1px;
@@ -290,7 +290,7 @@ img {
   -moz-border-radius: 6px;
   /* Rounded edges in Firefox */
 
-  background-image: url(/skins/neoclassic/images/classic/message.png);
+  background-image: url(/skins/banes/images/classic/message.png);
   color: #000000;
   border-style: solid;
   border-width: 1px;
@@ -423,13 +423,13 @@ span.XtreeMinus:hover {
   overflow: hidden;
   cursor: move;
   /*background	: url(/js/processmap/core/images/bg_task.gif);
-	background	: url(/skins/neoclassic/images/fondotask.png);*/
+	background	: url(/skins/banes/images/fondotask.png);*/
 
   /*background-color:#006699;*/
 
   /*background-color:#6F6F6F;*/
 
-  background: url(/skins/neoclassic/images/borderTask.gif);
+  background: url(/skins/banes/images/borderTask.gif);
   background-color: #0576C4;
   background-color: #006699;
   vertical-align: middle;
@@ -466,7 +466,7 @@ span.XtreeMinus:hover {
 .processmap_toolbarItem___processmaker {
   margin: 0px;
   border: 1px solid #CEC6B5;
-  background: #efefef url(/skins/neoclassic/images/dynamicForm/toolbar.buttonbg.gif) repeat-x scroll 0%;
+  background: #efefef url(/skins/banes/images/dynamicForm/toolbar.buttonbg.gif) repeat-x scroll 0%;
 }
 .processmap_toolbarItem___processmaker:hover {
   margin: 0px;
@@ -489,7 +489,7 @@ TD.mainMenuBG {
   vertical-align: top;
 }
 TD.mainMenu {
-  background-image: url(/skins/neoclassic/images/classic/bm.jpg);
+  background-image: url(/skins/banes/images/classic/bm.jpg);
   background-repeat: repeat-x;
   height: 25px;
   left: 46px;
@@ -512,7 +512,7 @@ A.mainMenu:hover {
   text-decoration: none;
 }
 TD.SelectedMenu {
-  background-image: url(/skins/neoclassic/images/classic/bsms.jpg);
+  background-image: url(/skins/banes/images/classic/bsms.jpg);
   background-repeat: repeat-x;
   top: 72px;
   height: 26px;
@@ -537,7 +537,7 @@ A.SelectedMenu {
   text-decoration: none;
 }
 TD.subMenu {
-  background-image: url('/skins/neoclassic/images/classic/bsm.jpg');
+  background-image: url('/skins/banes/images/classic/bsm.jpg');
   background-repeat: repeat-x;
   height: 25px;
 }
@@ -610,14 +610,14 @@ A.selectedSubMenu:hover {
 .boxTopBlue div.a {
   left: 0px;
   top: 0px;
-  background-image: url(/skins/neoclassic/images/classic/ftl.png);
+  background-image: url(/skins/banes/images/classic/ftl.png);
   background-color: transparent;
 }
 .boxTop div.c,
 .boxTopBlue div.c {
   top: 0px;
   right: 0px;
-  background-image: url(/skins/neoclassic/images/classic/ftr.png);
+  background-image: url(/skins/banes/images/classic/ftr.png);
   background-color: transparent;
 }
 .boxTop div.b,
@@ -634,11 +634,11 @@ A.selectedSubMenu:hover {
 /* Box Top Model END */
 /* Box Top Model Blue BEGIN */
 .boxTopBlue div.c {
-  background-image: url(/skins/neoclassic/images/classic/ftr.blue.gif);
+  background-image: url(/skins/banes/images/classic/ftr.blue.gif);
   background-color: transparent;
 }
 .boxTopBlue div.a {
-  background-image: url(/skins/neoclassic/images/classic/ftl.blue.gif);
+  background-image: url(/skins/banes/images/classic/ftl.blue.gif);
   background-color: transparent;
 }
 .boxTopBlue div.b {
@@ -667,14 +667,14 @@ A.selectedSubMenu:hover {
 .boxBottomBlue div.a {
   left: 0px;
   top: 0px;
-  background-image: url(/skins/neoclassic/images/classic/fbl.png);
+  background-image: url(/skins/banes/images/classic/fbl.png);
   background-color: transparent;
 }
 .boxBottom div.c,
 .boxBottomBlue div.c {
   top: 0px;
   right: 0px;
-  background-image: url(/skins/neoclassic/images/classic/fbr.png);
+  background-image: url(/skins/banes/images/classic/fbr.png);
   background-color: transparent;
 }
 .boxBottom div.b,
@@ -682,7 +682,7 @@ A.selectedSubMenu:hover {
   width: 100%;
   height: 16px;
   border-bottom: 1px solid #DADADA;
-  background: transparent url(/skins/neoclassic/images/classic/fbc.png) repeat-x;
+  background: transparent url(/skins/banes/images/classic/fbc.png) repeat-x;
 }
 .boxBottom,
 .boxBottomBlue {
@@ -691,18 +691,18 @@ A.selectedSubMenu:hover {
 /* Box Bottom Model END */
 /* Box Bottom Model Blue BEGIN */
 .boxBottomBlue div.c {
-  background-image: url(/skins/neoclassic/images/classic/fbr.blue.png);
+  background-image: url(/skins/banes/images/classic/fbr.blue.png);
   background-color: transparent;
 }
 .boxBottomBlue div.a {
-  background-image: url(/skins/neoclassic/images/classic/fbl.blue.png);
+  background-image: url(/skins/banes/images/classic/fbl.blue.png);
   background-color: transparent;
 }
 .boxBottomBlue div.b {
   width: 100%;
   height: 16px;
   border-bottom: 1px solid #DADADA;
-  background: transparent url(/skins/neoclassic/images/classic/fbc.blue.png) repeat-x;
+  background: transparent url(/skins/banes/images/classic/fbc.blue.png) repeat-x;
 }
 .boxContentBlue {
   border: 1px solid #9eccdf;
@@ -736,19 +736,19 @@ a.linkInBlue:hover {
 .boxTopPanel div.a {
   left: 0px;
   top: 0px;
-  background-image: url(/skins/neoclassic/images/classic/ftlL.png);
+  background-image: url(/skins/banes/images/classic/ftlL.png);
   background-color: transparent;
 }
 .boxTopPanel div.c {
   top: 0px;
   right: 0px;
-  background-image: url(/skins/neoclassic/images/classic/ftrL.png);
+  background-image: url(/skins/banes/images/classic/ftrL.png);
   background-color: transparent;
 }
 .boxTopPanel div.b {
   width: 100%;
   height: 16px;
-  background: transparent url(/skins/neoclassic/images/classic/ftc.png) repeat-x;
+  background: transparent url(/skins/banes/images/classic/ftc.png) repeat-x;
 }
 /* BoxPanel Bottom Model END */
 /* XmlForm BEGIN  */
@@ -798,7 +798,7 @@ form.formDefault .content,
 }
 form.formDefault input.FormField {
   border: 1px solid #CCC;
-  background: #ffffff url(/skins/neoclassic/images/classic/input_back.gif) repeat-x;
+  background: #ffffff url(/skins/banes/images/classic/input_back.gif) repeat-x;
   color: #333333;
   font: normal 11px "Open Sans", Tahoma, sans-serif, MiscFixed;
 }
@@ -825,14 +825,14 @@ form.formDefault .FormFieldContent {
 }
 form.formDefault textarea.FormTextArea {
   border: 1px solid #CCC;
-  background: #ffffff url(/skins/neoclassic/images/classic/input_back.gif) repeat-x;
+  background: #ffffff url(/skins/banes/images/classic/input_back.gif) repeat-x;
   color: #333333;
   font: normal 11px "Open Sans", Tahoma, sans-serif, MiscFixed;
   overflow: auto;
 }
 form.formDefault textarea.FormTextPM {
   border: 1px solid #CCC;
-  background: #ffffff url(/skins/neoclassic/images/classic/input_back.gif) repeat-x;
+  background: #ffffff url(/skins/banes/images/classic/input_back.gif) repeat-x;
   color: #333;
   font: normal 12px Courier New, monospace ;
   overflow: auto;
@@ -1042,7 +1042,7 @@ tr.Selected {
 }
 /*Adicion Rube*/
 .pagedTableDefault .pagedTable .masterDetailMain {
-  background-image: url(/skins/neoclassic/images/masterDetailMain.png);
+  background-image: url(/skins/banes/images/masterDetailMain.png);
   background-repeat: repeat-x;
   text-decoration: none;
   color: #5B5B5B;
@@ -1051,7 +1051,7 @@ tr.Selected {
   font-weight: bold;
 }
 .pagedTableDefault .pagedTable .masterDetailOther {
-  background-image: url(/skins/neoclassic/images/masterDetailOther.png);
+  background-image: url(/skins/banes/images/masterDetailOther.png);
   background-repeat: repeat-x;
   text-decoration: none;
   color: #5B5B5B;
@@ -1073,7 +1073,7 @@ tr.Selected {
   white-space: nowrap;
 }
 A.firstPage {
-  background-image: url('/skins/neoclassic/images/firstPage.gif');
+  background-image: url('/skins/banes/images/firstPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1082,7 +1082,7 @@ A.firstPage {
   text-decoration: none;
 }
 A.noFirstPage {
-  background-image: url('/skins/neoclassic/images/firstPage.gif');
+  background-image: url('/skins/banes/images/firstPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1091,7 +1091,7 @@ A.noFirstPage {
   text-decoration: none;
 }
 A.previousPage {
-  background-image: url('/skins/neoclassic/images/previousPage.gif');
+  background-image: url('/skins/banes/images/previousPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1100,7 +1100,7 @@ A.previousPage {
   text-decoration: none;
 }
 A.noPreviousPage {
-  background-image: url('/skins/neoclassic/images/previousPage.gif');
+  background-image: url('/skins/banes/images/previousPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1109,7 +1109,7 @@ A.noPreviousPage {
   text-decoration: none;
 }
 A.nextPage {
-  background-image: url('/skins/neoclassic/images/nextPage.gif');
+  background-image: url('/skins/banes/images/nextPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1118,7 +1118,7 @@ A.nextPage {
   text-decoration: none;
 }
 A.noNextPage {
-  background-image: url('/skins/neoclassic/images/nextPage.gif');
+  background-image: url('/skins/banes/images/nextPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1127,7 +1127,7 @@ A.noNextPage {
   text-decoration: none;
 }
 A.lastPage {
-  background-image: url('/skins/neoclassic/images/lastPage.gif');
+  background-image: url('/skins/banes/images/lastPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1136,7 +1136,7 @@ A.lastPage {
   text-decoration: none;
 }
 A.noLastPage {
-  background-image: url('/skins/neoclassic/images/lastPage.gif');
+  background-image: url('/skins/banes/images/lastPage.gif');
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-left: 21px;
@@ -1215,14 +1215,14 @@ div.treeParent .treeMinus {
   height: 22px;
   display: block;
   position: relative;
-  background-image: url(/skins/neoclassic/images/minus.gif);
+  background-image: url(/skins/banes/images/minus.gif);
   background-repeat: no-repeat;
   overflow: hidden;
 }
 div.treeParent .treePlus {
   width: 16px;
   height: 22px;
-  background-image: url(/skins/neoclassic/images/plus.gif);
+  background-image: url(/skins/banes/images/plus.gif);
   background-repeat: no-repeat;
   display: block;
 }
@@ -1232,11 +1232,11 @@ div.treeParent .treePointer {
   display: block;
 }
 div.treeParent td.c {
-  background-image: url(/skins/neoclassic/images/ftv2vertline.gif);
+  background-image: url(/skins/banes/images/ftv2vertline.gif);
   background-repeat: repeat-y;
 }
 div.treeParent td.d {
-  background-image: url(/skins/neoclassic/images/ftv2node.gif);
+  background-image: url(/skins/banes/images/ftv2node.gif);
   background-repeat: repeat-y;
 }
 div.treeParent .treeNode {
@@ -1286,7 +1286,7 @@ div.treeChild td.a {
   background: none;
 }
 div.treeChild .c {
-  background-image: url(/skins/neoclassic/images/ftv2vertline.gif);
+  background-image: url(/skins/banes/images/ftv2vertline.gif);
   background-repeat: repeat-y;
 }
 /* TreeChild END */
@@ -1305,7 +1305,7 @@ div.treeParent .content .treeNode a.selected {
 }
 div.treeParent div.treeParent .boxTop div.a
 {
-	background-image:url(/skins/neoclassic/images/classic/ftl.blue.gif);
+	background-image:url(/skins/banes/images/classic/ftl.blue.gif);
 }
 div.treeParent div.treeParent .boxTop div.b
 {
@@ -1314,19 +1314,19 @@ div.treeParent div.treeParent .boxTop div.b
 }
 div.treeParent div.treeParent .boxTop div.c
 {
-	background-image:url(/skins/neoclassic/images/classic/ftr.blue.gif);
+	background-image:url(/skins/banes/images/classic/ftr.blue.gif);
 }
 div.treeParent div.treeParent .boxBottom div.a
 {
-	background-image:url(/skins/neoclassic/images/classic/fbl.blue.png);
+	background-image:url(/skins/banes/images/classic/fbl.blue.png);
 }
 div.treeParent div.treeParent .boxBottom div.b
 {
-	background-image:url(/skins/neoclassic/images/classic/fbc.blue.png);
+	background-image:url(/skins/banes/images/classic/fbc.blue.png);
 }
 div.treeParent div.treeParent .boxBottom div.c
 {
-	background-image:url(/skins/neoclassic/images/classic/fbr.blue.png);
+	background-image:url(/skins/banes/images/classic/fbr.blue.png);
 }*/
 div.treeParent .subcontent {
   padding-left: 5px;
@@ -1764,7 +1764,7 @@ table.tableGrid_view td {
   -moz-background-inline-policy: continuous;
   /*-moz-background-origin:padding;*/
 
-  background: #5c9ccc url(/skins/neoclassic/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) repeat-x scroll 50% 50%;
+  background: #5c9ccc url(/skins/banes/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) repeat-x scroll 50% 50%;
   border: 1px solid #4297D7;
   color: #FFFFFF;
   font-weight: bold;
@@ -1800,7 +1800,7 @@ table.tableGrid_view td {
 .DHTMLSuite_calendar .DHTMLSuite_calendarHeading {
   /* Heading of calendar, where you see the month and year */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar_heading.png);
+  background-image: url(/skins/banes/images/calendar/calendar_heading.png);
   background-repeat: repeat-x;
   height: 21px;
   border-bottom: 1px solid #8F8F8F;
@@ -1816,7 +1816,7 @@ table.tableGrid_view td {
 .DHTMLSuite_calendarCloseButton {
   /* Close button at the top right corner of the calendar */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar-close.gif);
+  background-image: url(/skins/banes/images/calendar/calendar-close.gif);
   background-repeat: no-repeat;
   width: 13px;
   height: 13px;
@@ -1936,28 +1936,28 @@ table.tableGrid_view td {
 .DHTMLSuite_calendar_btnNextYear {
   /* Next year button */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar-next-year.gif);
+  background-image: url(/skins/banes/images/calendar/calendar-next-year.gif);
   right: 2px;
   font-size: 11px;
 }
 .DHTMLSuite_calendar_btnPreviousYear {
   /* Previous year button */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar-previous-year.gif);
+  background-image: url(/skins/banes/images/calendar/calendar-previous-year.gif);
   left: 2px;
   font-size: 11px;
 }
 .DHTMLSuite_calendar_btnNextMonth {
   /* Next month button */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar-next-month.gif);
+  background-image: url(/skins/banes/images/calendar/calendar-next-month.gif);
   right: 18px;
   font-size: 11px;
 }
 .DHTMLSuite_calendar_btnPreviousMonth {
   /* Previous month button */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar-previous-month.gif);
+  background-image: url(/skins/banes/images/calendar/calendar-previous-month.gif);
   left: 18px;
   font-size: 11px;
 }
@@ -2143,7 +2143,7 @@ table.tableGrid_view td {
 .DHTMLSuite_calendar_dropDown_arrowUp {
   /* Drop down - moving to previous year */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar-dropdown-up.gif);
+  background-image: url(/skins/banes/images/calendar/calendar-dropdown-up.gif);
   background-repeat: no-repeat;
   background-position: center center;
   height: 8px;
@@ -2152,7 +2152,7 @@ table.tableGrid_view td {
 .DHTMLSuite_calendar_dropDown_arrowDown {
   /* Drop down - moving to previous year */
 
-  background-image: url(/skins/neoclassic/images/calendar/calendar-dropdown-down.gif);
+  background-image: url(/skins/banes/images/calendar/calendar-dropdown-down.gif);
   background-repeat: no-repeat;
   background-position: center center;
   height: 8px;
@@ -2195,7 +2195,7 @@ table.tableGrid_view td {
 }
 .calendar_picker_min {
   cursor: pointer;
-  background-image: url(/skins/neoclassic/images/btncal_min.png);
+  background-image: url(/skins/banes/images/btncal_min.png);
   float: left;
   width: 96px;
   height: 23px;
@@ -2206,7 +2206,7 @@ table.tableGrid_view td {
 }
 .calendar_picker {
   cursor: pointer;
-  background-image: url(/skins/neoclassic/images/btncal.png);
+  background-image: url(/skins/banes/images/btncal.png);
   float: left;
   width: 121px;
   height: 23px;
@@ -2311,7 +2311,7 @@ body.jq-enhanced #jq-intro li div.jq-checkpointSubhead {
   position: absolute;
   width: 253px;
   height: 54px;
-  background: url(/skins/neoclassic/images/bg_ctaTooltip.png) 0 0 no-repeat;
+  background: url(/skins/banes/images/bg_ctaTooltip.png) 0 0 no-repeat;
   top: -1.5em;
   left: -35%;
   z-index: 100;
@@ -2565,7 +2565,7 @@ input#DynaformRequiredFields {
 */
 .resizer-west-closed,
 .resizer-east-closed {
-  background: #b4b4b4 url(/skins/neoclassic/images/separator-v.gif) center no-repeat;
+  background: #b4b4b4 url(/skins/banes/images/separator-v.gif) center no-repeat;
   border-top: 1px solid #777;
   border-bottom: 1px solid #777;
 }
@@ -2597,42 +2597,42 @@ span.button-pin-east {
 }
 /* CUSTOM pin-buttons */
 span.button-pin-up {
-  background: url(/skins/neoclassic/images/pin-up-off.gif) no-repeat center;
+  background: url(/skins/banes/images/pin-up-off.gif) no-repeat center;
 }
 span.button-pin-up:hover {
-  background: url(/skins/neoclassic/images/pin-up-on.gif) no-repeat center;
+  background: url(/skins/banes/images/pin-up-on.gif) no-repeat center;
 }
 span.button-pin-down {
-  background: url(/skins/neoclassic/images/pin-dn-off.gif) no-repeat center;
+  background: url(/skins/banes/images/pin-dn-off.gif) no-repeat center;
 }
 span.button-pin-down:hover {
-  background: url(/skins/neoclassic/images/pin-dn-on.gif) no-repeat center;
+  background: url(/skins/banes/images/pin-dn-on.gif) no-repeat center;
 }
 /* CUSTOM close-buttons */
 span.button-close-west {
-  background: url(/skins/neoclassic/images/go-lt-off.gif) no-repeat center;
+  background: url(/skins/banes/images/go-lt-off.gif) no-repeat center;
 }
 span.button-close-west:hover {
-  background: url(/skins/neoclassic/images/go-lt-on.gif) no-repeat center;
+  background: url(/skins/banes/images/go-lt-on.gif) no-repeat center;
 }
 span.button-close-east {
-  background: url(/skins/neoclassic/images/go-rt-off.gif) no-repeat center;
+  background: url(/skins/banes/images/go-rt-off.gif) no-repeat center;
 }
 span.button-close-east:hover {
-  background: url(/skins/neoclassic/images/go-rt-on.gif) no-repeat center;
+  background: url(/skins/banes/images/go-rt-on.gif) no-repeat center;
 }
 /* STANDARD toggler-buttons - when the east/west panes are 'closed' */
 .toggler-west-closed {
-  background: url(/skins/neoclassic/images/go-rt-off.gif) no-repeat center;
+  background: url(/skins/banes/images/go-rt-off.gif) no-repeat center;
 }
 .toggler-west-closed:hover {
-  background: url(/skins/neoclassic/images/go-rt-on.gif) no-repeat center;
+  background: url(/skins/banes/images/go-rt-on.gif) no-repeat center;
 }
 .toggler-east-closed {
-  background: url(/skins/neoclassic/images/go-lt-off.gif) no-repeat center;
+  background: url(/skins/banes/images/go-lt-off.gif) no-repeat center;
 }
 .toggler-east-closed:hover {
-  background: url(/skins/neoclassic/images/go-lt-on.gif) no-repeat center;
+  background: url(/skins/banes/images/go-lt-on.gif) no-repeat center;
 }
 /*
 *	INNER LAYOUT RESIZERS & TOGGLERS
@@ -3490,3 +3490,4 @@ button.x-btn-text:focus,
 .logo_company {
     padding: 7px 10px;
 }
+
